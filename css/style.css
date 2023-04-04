@@ -464,7 +464,78 @@ ol {
     margin-bottom: 0;
 }
 
+.square ul li{
+    position: absolute;
+    border: 1px solid #F7D130;
+    width: 30px;
+    height: 30px;
+    list-style: none;
+    opacity: 0;
+}
+.square li{
+    top: 50vh;
+    left: 45vw;
+    animation: square 10s linear infinite ;
+}
+.square li:nth-child(2){
+    top: 95vh;
+    left: 33vw;
+    animation-delay: 2s;
+}
+.square li:nth-child(3){
+    top: 30vh;
+    left: 5vw;
+    animation-delay: 4s;
+}
+.square li:nth-child(4){
+    top: 210vh;
+    left: 5vw;
+}
+.square li:nth-child(5){
+    top: 173vh;
+    left: 30vw;
+}
+.square li:nth-child(6){
+    top: 300vh;
+    left: 45vw;
+}
 
+.square li:nth-child(7){
+    top: 320vh;
+    left: 5vw;
+    animation-delay: 4s;
+}
+.square li:nth-child(8){
+    top: 370vh;
+    left: 30vw;
+}
+.square li:nth-child(9){
+    top: 400vh;
+    left: 45vw;
+}
+.square li:nth-child(10){
+    top: 430vh;
+    left: 5vw;
+}
+.square li:nth-child(11){
+    top: 470vh;
+    left: 30vw;
+}
+.square li:nth-child(12){
+    top: 540vh;
+    left: 45vw;
+    animation-delay: 4s;
+}
+@keyframes square{
+    0%{
+        transform: scale(0) rotateY(0deg);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(5) rotateY(1000deg);
+        opacity: 0;
+    }
+}
 /*---------------------
 	Social section
 -----------------------*/
