@@ -1,10 +1,3 @@
-/* =================================
-------------------------------------
-	Civic - CV Resume
-	Version: 1.0
- ------------------------------------ 
- ====================================*/
-
 
 
 'use strict';
@@ -67,15 +60,6 @@ $(window).on('load', function() {
 		}
 	});
 
-
-	/*------------------
-		Popup
-	--------------------*/
-	$('.portfolio-item .port-pic').magnificPopup({
-		type: 'image',
-		mainClass: 'img-popup-warp',
-		removalDelay: 500,
-	});
 
 
 
